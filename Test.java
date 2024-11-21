@@ -18,8 +18,11 @@ public class Test {
 
             // Send "hi" message to the server
             String message = "hi";
+            String date = "22/11/24";
             out.println(message);
+            out.println(date);
             System.out.println("Client sent: " + message);
+            System.out.println("Client Date: "+ date);
 
             // Receive response from the server
             String response = in.readLine();
